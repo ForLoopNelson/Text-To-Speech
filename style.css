@@ -9,7 +9,7 @@
   padding: 25px 30px;
   border-radius: 7px;
   background: #fff;
-  box-shadow: 7px 7px 20px rgba(0,0,0,0.05);
+  box-shadow: 7px 7px 20px rgba(0,0,0,0.09);
 }
 
 header {
@@ -55,6 +55,7 @@ textarea {
 
 .outer {
   height:47px;
+  width: 105%;
   display: flex;
   padding: 0 10px;
   align-items: center;
