@@ -42,7 +42,6 @@ label {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 21px;
   margin-bottom: 5px;
-  
   text-decoration: 2px dotted underline #5256AD;
 }
 
@@ -67,19 +66,22 @@ textarea {
 }
 
 .outer {
-  height:47px;
+  height:40px;
   width: 105%;
   display: flex;
   padding: 0 10px;
   align-items: center;
   border-radius: 5px;
+  background:rgba(160, 173, 200, 0.5);
   justify-content: center;
   border: 1px solid #999;
 }
 
 select {
   font-size: 14px;
-  background: none;
+  background:rgba(200, 178, 160, 0.2);
+  height: 30px;
+  border: 5px;
 }
 
 .row select::-webkit-scrollbar{
@@ -96,7 +98,7 @@ select {
   border-right: 2px solid #ffffff;
 }
 
-form button {
+/* form button {
   height: 52px;
   color: #fff;
   font-size: 17px;
@@ -108,6 +110,40 @@ form button {
 
 form button:hover {
   background: #4534fe;
+} */
+
+button {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: auto;
+ margin-right: auto;
+ /* gap: 10px; */
+ font-family: inherit;
+ font-size: 13px;
+ font-weight: 500;
+ text-transform: uppercase;
+ letter-spacing: 0.4px;
+ color: #7e97b8;
+ background-color: #e0e8ef;
+ border-style: solid;
+ border-width: 2px 2px 2px 2px;
+ border-color: rgba(255, 255, 255, 0.333);
+ border-radius: 40px 40px 40px 40px;
+ padding: 16px 24px 16px 28px;
+ transform: translate(0px, 0px) rotate(0deg);
+ transition: 0.2s;
+ box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%);
+}
+
+button:hover {
+ color: #516d91;
+ background-color: #E5EDF5;
+ box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+}
+
+button:active {
+ box-shadow: none;
 }
 
 @media(max-width:400px){
